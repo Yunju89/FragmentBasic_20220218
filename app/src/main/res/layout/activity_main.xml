@@ -7,24 +7,40 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <fragment
-        android:tag="아무말"
+<!--스크롤뷰는 하나만 담을 수 있어서, 리니어 레이아웃을 넣고 그안에 넣음-->
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        class="org.techtown.fragmentbasic_20220218.fragments.MyFirstFragment"/>
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <fragment
+                android:tag="아무말"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                class="org.techtown.fragmentbasic_20220218.fragments.MyFirstFragment"/>
 
 
-    <fragment
-        android:tag="아무말2"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        class="org.techtown.fragmentbasic_20220218.fragments.SecondFragment"/>
+            <fragment
+                android:tag="아무말2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                class="org.techtown.fragmentbasic_20220218.fragments.SecondFragment"/>
 
-    <fragment
-        android:tag="아무말3"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        class="org.techtown.fragmentbasic_20220218.fragments.ThirdFragment"/>
+            <fragment
+                android:tag="아무말3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                class="org.techtown.fragmentbasic_20220218.fragments.ThirdFragment"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 
 </LinearLayout>
