@@ -5,12 +5,12 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    android:background="@color/blue">
+    android:background="@color/teal_200">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="여기는 두번째 프래그먼트"
+        android:text="여기는 세번째 프래그먼트"
         android:textColor="@color/white"
         android:textSize="17sp"/>
 
@@ -19,5 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="토스트 띄우기"/>
+
 
 </LinearLayout>

@@ -15,4 +15,16 @@
         class="org.techtown.fragmentbasic_20220218.fragments.MyFirstFragment"/>
 
 
+    <fragment
+        android:tag="아무말2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        class="org.techtown.fragmentbasic_20220218.fragments.SecondFragment"/>
+
+    <fragment
+        android:tag="아무말3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="org.techtown.fragmentbasic_20220218.fragments.ThirdFragment"/>
+
 </LinearLayout>
